@@ -1,0 +1,113 @@
+body{
+
+  background-color: #41318D;
+  background-image: url("https://ak.picdn.net/shutterstock/videos/1019866207/thumb/1.jpg");
+  background-size: cover;
+}
+a {
+  text-decoration: none;
+}
+#header {
+  background-color:#D83F87;
+ width:1000px;
+  height: 110px;
+  float:right;
+  border-radius: 8px;
+  opacity: 0.9;
+}
+ul {
+
+  list-style: none;
+  margin: 15px;
+  float: right;
+  display: flex;
+}
+.home{
+  color:white;
+ font-family: 'Courier New', Courier, monospace;
+
+}
+.home:hover{
+  color:white;
+  background-color: black;
+}
+tr:nth-child(even){
+  background-color: #dddddd;
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+
+li,h2 {
+  margin: 15px;
+  font-size: larger;
+  color: white;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+li:hover{
+  font-family: 'Baloo Tammudu 2', cursive;
+  color:black;
+  background-color: white;
+
+}
+#img{
+  float:left;
+  height:200px;
+  margin:15px;
+  margin-top: 1px;
+}
+#heading{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+
+
+}
+h1{
+  font-size: 75px;
+  font-family: 'Amatic SC', cursive;
+  color: black;
+
+}
+
+#tran{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+
+}
+h2{
+  font-size: 60px;
+
+}
+#datab{
+  height:100px;
+}
+#datab:hover{
+  height:120px;
+  transition: all 0.5s ease-in-out;
+
+
+}
+footer {
+  background: #061D25;
+
+  text-align: center;
+}
+footer a {
+  color: #70726F;
+  font-size: 45px;
+  padding: 10px;
+
+  transition: all .5s ease;
+  margin:20px;
+}
+
+
+footer a:hover {
+  color: white;
+}
+
+
